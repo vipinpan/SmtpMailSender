@@ -5,4 +5,4 @@ Once you are done building project You can use any RestClient such as Postman re
 You will get the response in the form of json.
 In Postman in URL section just type "http://localhost:8080/smtpreq" and chose Post.
 Before doing all of this Start Spring boot server by typing "mvn spring-boot:run". Once it starts running on your local machine then you can post your request in Postman by using above given info.
-Body of request will look like this : {"host":"mailHost","username":"user@mailHost" , "password" : "pass", "vipinpandey75@gmail.com", "mailSubject":"Testing smtp mail sending." , "mailBody":"This is mail number 1." ,"attachFiles":"attachmentPath"}
+Body of request will look like this : {"host":"mailHost","username":"user@mailHost" , "password" : "pass", "recipientMailId": "vipinpandey75@gmail.com", "mailSubject":"Testing smtp mail sending." , "mailBody":"This is mail number 1." ,"attachFiles":"attachmentPath"}
