@@ -1,3 +1,5 @@
+package **packagename**// provide the package name under which the class file is created
+
 import java.util.HashMap;
 import java.util.Map;
 
