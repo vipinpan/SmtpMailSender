@@ -1,5 +1,3 @@
-package com.sophos.nsg.jtaf.clientutils.utils;
-
 import java.io.IOException;
 import java.util.Properties;
 
