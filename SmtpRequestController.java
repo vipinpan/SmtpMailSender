@@ -1,5 +1,3 @@
-package com.sophos.nsg.jtaf.clientutils.controller;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sophos.nsg.jtaf.clientutils.utils.SmtpRequest;
+import package.SmtpRequest;
 
 @RestController
 public class SmtpRequestController
