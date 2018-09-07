@@ -1,4 +1,4 @@
-package **packagename**
+package **packagename** // provide the package name under which the class file is created
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
